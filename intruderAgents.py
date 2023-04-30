@@ -410,6 +410,7 @@ while True:
             print("1) [bright_red]YouTube[/bright_red]")
             print("2) [dodger_blue1]Telegram[/dodger_blue1]")
             print("3) [medium_purple3]Discord[/medium_purple3]")
+            print("4) [blue]GitHub[/blue]")
             print("0) Back")
             command = input()
             if command == "1":
@@ -418,6 +419,8 @@ while True:
                 open("https://t.me/+ZhVKq6IRBa0yMTQy")
             if command == "3":
                 print("VadimTawer#9719")
+            if command == "4":
+                open("https://github.com/VadimTawer/IntruderAgents")
             if command == "0":
                 break
     if command == "3":
